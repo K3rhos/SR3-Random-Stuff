@@ -1,6 +1,6 @@
 Index used with this function:
 
-```
+```cpp
 int index = 0;
 
 const character_preset* preset = char_preset_get_from_index(index);
