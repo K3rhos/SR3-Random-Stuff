@@ -1,11 +1,14 @@
-Index used with this function:
-
 ```cpp
-int index = 0;
 
-const character_preset* preset = char_preset_get_from_index(index);
+void get_preset_name_by_index(int _index)
+{
+  const character_preset* preset = char_preset_get_from_index(_index);
+  
+  const char* name = preset->preset_name;
 
-const char* name = preset->preset_name;
+  return name;
+}
+
 ```
 
 | Index  | Name |
