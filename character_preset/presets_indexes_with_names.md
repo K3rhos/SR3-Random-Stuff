@@ -1,6 +1,8 @@
 ```cpp
 
-void get_preset_name_by_index(int _index)
+// This simple function return the preset name by passing an index (full list below).
+
+const char* get_preset_name_by_index(int _index)
 {
   const character_preset* preset = char_preset_get_from_index(_index);
   
