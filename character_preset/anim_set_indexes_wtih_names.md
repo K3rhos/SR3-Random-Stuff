@@ -1,3 +1,27 @@
+Can be used like this:
+
+![vanim_find_anim_set](https://raw.githubusercontent.com/K3rhos/SR3-Random-Stuff/main/character_preset/img/ida64_JHHlbdPDQb.png)
+
+vanim_find_anim_set -> `E8 ? ? ? ? 4C 63 44 24 ? ` and 1 and rip it.
+
+```cpp
+// 'human' struct is needed.
+
+void human::set_anim_set(const char* _name)
+{
+  animation_set* anim_set = vanim_find_anim_set(_name);
+
+  if (anim_set)
+  {
+    this->char_inst->vp->anim_set[0] = anim_set;
+  }
+}
+```
+
+This can also be used with the function: `player_swap_rig` on the third parameter.
+
+![player_swap_rig](https://raw.githubusercontent.com/K3rhos/SR3-Random-Stuff/main/character_preset/img/ida64_CJBnZW8GOf.png)
+
 | Index  | Name |
 | ------------- | ------------- |
 | 0 | anim_auto |
