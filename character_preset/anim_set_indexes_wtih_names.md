@@ -1,7 +1,5 @@
 Can be used like this:
 
-![vanim_find_anim_set](https://raw.githubusercontent.com/K3rhos/SR3-Random-Stuff/main/character_preset/img/ida64_JHHlbdPDQb.png)
-
 vanim_find_anim_set -> `E8 ? ? ? ? 4C 63 44 24 ? ` add 1 and rip it.
 
 ```cpp
@@ -19,8 +17,6 @@ void human::set_anim_set(const char* _name)
 ```
 
 This can also be used with the function: `player_swap_rig` on the third parameter.
-
-![player_swap_rig](https://raw.githubusercontent.com/K3rhos/SR3-Random-Stuff/main/character_preset/img/ida64_CJBnZW8GOf.png)
 
 | Index  | Name |
 | ------------- | ------------- |
