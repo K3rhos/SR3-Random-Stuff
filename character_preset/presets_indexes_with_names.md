@@ -1,5 +1,3 @@
-![char_preset_get_from_index](https://raw.githubusercontent.com/K3rhos/SR3-Random-Stuff/main/character_preset/img/ida64_ZatWEdkASy.png)
-
 char_preset_get_from_index -> `E8 ? ? ? ? 48 85 C0 74 11 44 8B CD` add 1 and rip it.
 
 ```cpp
