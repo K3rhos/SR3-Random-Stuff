@@ -1,12 +1,12 @@
 Index used with this function:
 
-<sup>
+```
 int index = 0;
 
 const character_preset* preset = char_preset_get_from_index(index);
 
 const char* name = preset->preset_name;
-</sup>
+```
 
 | Index  | Name |
 | ------------- | ------------- |
