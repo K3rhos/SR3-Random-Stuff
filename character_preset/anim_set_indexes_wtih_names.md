@@ -2,7 +2,7 @@ Can be used like this:
 
 ![vanim_find_anim_set](https://raw.githubusercontent.com/K3rhos/SR3-Random-Stuff/main/character_preset/img/ida64_JHHlbdPDQb.png)
 
-vanim_find_anim_set -> `E8 ? ? ? ? 4C 63 44 24 ? ` and 1 and rip it.
+vanim_find_anim_set -> `E8 ? ? ? ? 4C 63 44 24 ? ` add 1 and rip it.
 
 ```cpp
 // 'human' struct is needed.
