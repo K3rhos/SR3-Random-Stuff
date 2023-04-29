@@ -2,4 +2,4 @@
 
 Some randoms stuff reversed on **Saints Row The Third™ Remastered**.
 
-![SRTTR_Hx4XbDGMCt-Trim-Trim](https://user-images.githubusercontent.com/30273537/235305449-4986b4d9-7f91-449d-bbc5-fcf658acf269.gif)
+<img src="https://user-images.githubusercontent.com/30273537/235305449-4986b4d9-7f91-449d-bbc5-fcf658acf269.gif" width="300">
