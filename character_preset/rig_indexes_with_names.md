@@ -1,4 +1,8 @@
+Can be used using this function:
+
 ![player_swap_rig](https://raw.githubusercontent.com/K3rhos/SR3-Random-Stuff/main/character_preset/img/ida64_CJBnZW8GOf.png)
+
+player_swap_rig -> `E8 ? ? ? ? F6 C3 02 74 51 ` add 1 and rip it.
 
 | Index  | Name |
 | ------------- | ------------- |
