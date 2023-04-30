@@ -1,3 +1,22 @@
+Example use:
+
+```cpp
+// Get local player tits size (if it's a female) and penis size other wise.
+
+float value = local_player->get_morph_value("Global Body", "breast");
+
+// Value returned between 0.0 and 1.0 (0% to 100%)
+```
+
+```cpp
+// Set local player tits size (if it's a female) and penis size other wise.
+
+local_player->apply_morph_value("Global Body", "breast", 1.0);
+
+// In this case the value is set to 1.0 (100%)
+// using a value higher than 1.0 not especially increase the size even more, in most cases it simply cause weird stuff to happen (Like broken bones or weird physic).
+```
+
 ```json
 {
     "Brow": {
