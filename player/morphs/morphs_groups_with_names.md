@@ -14,7 +14,8 @@ float value = local_player->get_morph_value("Global Body", "breast");
 local_player->apply_morph_value("Global Body", "breast", 1.0);
 
 // In this case the value is set to 1.0 (100%)
-// using a value higher than 1.0 not especially increase the size even more, in most cases it simply cause weird stuff to happen (Like broken bones or weird physic).
+// using a value higher than 1.0 not especially increase the size even more,
+// in most cases it simply cause weird stuff to happen (Like broken bones or weird physic).
 ```
 
 ```json
